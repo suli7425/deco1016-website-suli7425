@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Bambino Box - Payment Details</title>
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Literata:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="heading1" data-tilt data-tilt-scale="1.1">
+        <h1><a href="index.html" style="text-decoration: none; color: #521783">BambinoBox</a>
+        </h1>
+    </div>
+    <br />
+    <main>
+        <div class='page'>
+            <div class='section menu'></div>
+            <div class='section header'>
+
+            </div>
+            <div class='section content'>
+
+            </div>
+            <div class='section sign-up'>
+
+            </div>
+            <div class='section feature-1'>
+
+            </div>
+            <div class='section feature-2'>
+
+            </div>
+            <div class='section feature-3'>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="back" onclick="window.location.href='signupPg1.html';"><span>BACK </span>
+        </div>
+        <div class="flex-container">
+            <div class="flex-column">
+                <h2>Register</h2>
+            </div>
+            <div class="flex-column">
+                <h2>About your child</h2>
+            </div>
+            <div class="flex-column">
+                <h2>Delivery</h2>
+            </div>
+            <div class="flex-column">
+                <h2>Payment</h2>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <form>
+
+            <div class="form-group">
+                <label for="payment">Payment Type </label>
+                <select id="payment" name="payment">
+                    <option value="choosePay">Choose Payment</option>
+                    <option value="visa">VISA</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="amx">American Express</option>
+                </select>
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <label for="nameoncard">Name on Card </label>
+                <input type="text" id="nameoncard" name="nameoncard" placeholder="eg. John Doe Smith">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <label for="cardnum">Card Number</label>
+                <input type="text" id="cardnum" name="cardnum">
+                <div class="messages"></div>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label for="validThru">ValidThru </label>
+                <input type="month" id="validThru" name="validThru">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <label for="cvvcvc">CVV/CVC</label>
+                <input type="number" id="cvvcvc" name="cvvcvc">
+                <div class="messages"></div>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <button class="next" onclick="window.location.href='confirmPg.html';"><span>NEXT </span>
+            </div>
+
+
+        </form>
+
+    </main>
+
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+
+
+    <script type="text/javascript" src="validate-min.js"></script>
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
